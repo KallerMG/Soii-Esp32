@@ -9,4 +9,4 @@ def do_connect():
         wlan.connect(WiFi_SSID, WiFi_SSID)
         while not wlan.isconnected():
             pass
-    print('network config:', wlan.ifconfig())
+    print('network config:')
