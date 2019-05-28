@@ -1,4 +1,4 @@
-def temperatura(): #LM35 valor aproximado 
+def temperatura(): #LM35 valor aproximado
   import machine
   adc = machine.ADC(machine.Pin(36))
   temp = adc.read()
