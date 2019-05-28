@@ -1,6 +1,6 @@
 import network
-WiFi_SSID = "#erro404#"
-WiFi_PASS = "NET10net@"
+WiFi_SSID = "nome do wifi "
+WiFi_PASS = " sua senha"
 def do_connect():
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
