@@ -1,4 +1,3 @@
-import network
 import wifi
 import temp
 from umqtt.simple import MQTTClient
