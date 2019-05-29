@@ -1,5 +1,6 @@
 import wifi
 import temp
+import time
 from umqtt.simple import MQTTClient
 print (conectar())
 servidor = "mqtt.thingspeak.com"
