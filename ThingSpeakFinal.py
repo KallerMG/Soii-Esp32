@@ -7,8 +7,8 @@ exec(open('./wifi.py').read(),globals())
 conectar()
 servidor = "mqtt.thingspeak.com"
 client = MQTTClient("umqtt_client", servidor)
-idCanal = "789117"
-ApiKey = "6WS8SD0T6DVHVA7D"
+idCanal = "idcanal"
+ApiKey = "api key"
 topico = "channels/" + idCanal + "/publish/" + ApiKey
 a = 1
 while a == 1:
