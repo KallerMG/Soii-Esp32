@@ -10,6 +10,40 @@
 * Link sobre como instalar o MicroPython: https://www.dobitaobyte.com.br/como-instalar-o-firmware-micropython-no-esp32/
 * Site do MicroPython: https://micropython.org/ 
 
+## Protocolo MQTT
+   É um protocolo de mensagens leve para sensores e pequenos dispositivos móveis otimizado para redes TCP/IP não confiáveis ou de alta latência, O esquema de troca de mensagens é fundamentado no modelo Publicador-Subscritor.
+   * O protocolo leve permite a implementação em hardware de dispositivo altamente restringido e em redes de largura da banda limitada e de alta latência.
+   * Sua flexibilidade possibilita o suporte a diversos cenários de aplicativo para dispositivos e serviços de IoT.
+   ![](https://www.electronicwings.com/public/images/user_images/images/NodeMCU/NodeMCU%20Basics%20using%20ESPlorer%20IDE/NodeMCU%20MQTT%20Client/MQTT%20Broker%20nw.png)
+ ### Exemplo de código para publicar:
+```from umqtt.simple import MQTTClient
+
+def main(server="servidor"):#servidor para publicar
+    c = MQTTClient("umqtt_cliente", server) #iniciando cliente
+    c.connect() #conectando
+    c.publish(b"ola_topico", b"ola mundo") #publicando
+    c.disconnect() #desconectando
+
+if __name__ == "__main__":
+    main()
+```
+
+
+
+
+### ThingSpeak
+  O ThingSpeak ™ é um serviço de plataforma de analítica da IoT que permite agregar, visualizar e analisar fluxos de dados ao vivo na nuvem. O ThingSpeak fornece visualizações instantâneas de dados postados por seus dispositivos no ThingSpeak. Com a capacidade de executar o código MATLAB® no ThingSpeak, você pode realizar a análise e o processamento on-line dos dados conforme eles são recebidos. O ThingSpeak é frequentemente usado para prototipagem e sistemas IoT de verificação de conceito que exigem análise.
+  * Configure facilmente dispositivos para enviar dados para o ThingSpeak usando protocolos IoT populares.
+  * Visualize seus dados do sensor em tempo real.
+  * Agregar dados sob demanda de fontes de terceiros.
+  * Use o poder do MATLAB para entender seus dados de IoT.
+  * Execute sua análise da IoT automaticamente com base em agendamentos ou eventos.
+  * Prototipar e construir sistemas de IoT sem configurar servidores ou desenvolver software da web.
+### Exemplos de formas para visualizar o conteudo:
+![](https://hackster.imgix.net/uploads/attachments/417896/screen_shot_2018-02-06_at_1_49_32_pm_BnPtYdUS9G.png?auto=compress%2Cformat&w=900&h=675&fit=min)
+
+
+
 
 
 
