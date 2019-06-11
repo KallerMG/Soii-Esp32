@@ -1,11 +1,7 @@
 # Bem vindo a wiki do kaller ESP-32!
 ### Plataforma utilizada para o desenvolvimento (ESP-32).
-<img src="https://www.curtocircuito.com.br/pub/media/catalog/product/cache/ecd051e9670bd57df35c8f0b122d8aea/p/l/placa_doit_esp32_-_esp-wroom-32_-_wifi_bluetooth.jpg" width="100" height="100" />
-<img src="https://www.curtocircuito.com.br/pub/media/catalog/product/cache/ecd051e9670bd57df35c8f0b122d8aea/p/l/placa_doit_esp32_-_esp-wroom-32_-_wifi_bluetooth.jpg" width="200" height="200" />
 <img src="https://www.curtocircuito.com.br/pub/media/catalog/product/cache/ecd051e9670bd57df35c8f0b122d8aea/p/l/placa_doit_esp32_-_esp-wroom-32_-_wifi_bluetooth.jpg" width="300" height="300" />
 ### * Sensor de temperatura LM35.
-<img src="https://5.imimg.com/data5/VU/WA/MY-45609829/lm35-temperature-sensor-500x500.png" width="100" height="100" />
-<img src=https://5.imimg.com/data5/VU/WA/MY-45609829/lm35-temperature-sensor-500x500.png" width="200" height="200" />
 <img src="https://5.imimg.com/data5/VU/WA/MY-45609829/lm35-temperature-sensor-500x500.png" width="300" height="300" />
 
 ## Trabalho sistemas operacionais II
